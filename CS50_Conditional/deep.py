@@ -1,4 +1,4 @@
-user_input = input("What is the Answer to the Great Question of Lifr, the Universe, and Everything? ").lower()
+user_input = input("What is the Answer to the Great Question of Lifr, the Universe, and Everything? ").lower().strip()
 
 match user_input:
     case "42" | "forty-two" | "forty two":
