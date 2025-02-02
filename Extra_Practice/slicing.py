@@ -1,5 +1,5 @@
 def main():
-    user_Input=input("Enter your Thought").capitalize()
+    user_Input=input("Enter your Thought: ").upper()
     is_reversed(user_Input)
     
 def is_reversed(user_Input):
